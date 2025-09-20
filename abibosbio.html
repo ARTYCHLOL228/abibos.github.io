@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@AB1B0S — Ебанутая Википедия</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff00cc, #3333ff, #00ff99, #ff9900);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: #fff;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            border: 5px dashed #ff00ff;
+            border-radius: 25px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 50px #ff00ff;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #ff9900;
+            text-shadow: 0 0 5px #ffff00;
+        }
+        p, li {
+            font-size: 1.2em;
+            text-shadow: 0 0 5px #00ff00;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li::before {
+            content: "🌀 ";
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+        .blink {
+            animation: blink 2s infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>@AB1B0S — Ебанутая Википедия</h1>
+        <p><strong>Статус:</strong> Абсолютный единорог в мире хаоса 🦄</p>
+        
+        <h2>🔮 Происхождение</h2>
+        <p>Появился из цифрового взрыва в нейросетевом хаосе. Говорят, его никнейм — это зашифрованное послание инопланетян.</p>
+        
+        <h2>💥 Суперспособности</h2>
+        <ul>
+            <li>Взламывает матрицу с помощью взгляда.</li>
+            <li>Общается с котами через Telegram-стикеры.</li>
+            <li>Создает мемы, которые предсказывают будущее.</li>
+            <li>Пьет энергетики и кодит на ассемблере во сне.</li>
+        </ul>
+        
+        <h2>🎯 Известные цитаты</h2>
+        <p><em>"Если код не работает — значит, это не код, а современное искусство."</em></p>
+        <p><em>"Я не сплю — я компилирую."</em></p>
+        
+        <h2>⚠️ Опасности</h2>
+        <p>При прямом контакте с его профилем возможны:<br>
+        - Галлюцинации от крутых стикеров.<br>
+        - Желание переустановить всю жизнь.</p>
+        
+        <h2>🔗 Ссылки</h2>
+        <p>Телеграм: <a href="https://t.me/AB1B0S" style="color:#00ffff;">@AB1B0S</a></p>
+        <p>Только для тех, кто готов к безумию!</p>
+        
+        <div class="footer">
+            <p class="blink">⚠️ Внимание! Эта страница самоуничтожится через 10 секунд! ⚠️</p>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            document.body.innerHTML = '<h1 style="color:red;">💥 ВЗРЫВ МОЗГА 💥</h1><p>Страница уничтожена по приказу @AB1B0S</p>';
+        }, 10000);
+    </script>
+</body>
+</html>
